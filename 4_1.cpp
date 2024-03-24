@@ -4,17 +4,17 @@
 using namespace std;
 
 //convert 24 to 12
-void Convertion(int &hour, int &minute, char &notation){
+void convertion(int &hour, int &minute, char &notation){
     hour-=12;
     notation = 'p';
 }
 //user input function
-void Userinput(int &hour, int &minute){
+void userinput(int &hour, int &minute){
     cout << "Enter the hour and minute separate with space> ";
     cin >>  hour >> minute;
 }
 //show convert result on screen
-void Output(int &hour, int &minute, char &notation){
+void output(int &hour, int &minute, char &notation){
     //make sure time is in reasonable range
     if(hour<0 || minute<0){
         cout << "Time should be postive" << endl;
@@ -22,7 +22,7 @@ void Output(int &hour, int &minute, char &notation){
         cout << "check your input if hour<23 and minute<59 or not" << endl;
     }else{
         //if it is, doing the convertion
-        Convertion(hour, minute, notation);
+        convertion(hour, minute, notation);
         switch(notation){
             case 'a':
                 cout << hour << ":" << minute << "A.M." << endl;
@@ -40,8 +40,8 @@ int main(){
     char notation='a', again='n';
     bool loop=true;
     do{
-        Userinput(hour, minute);
-        Output(hour, minute, notation);
+        userinput(hour, minute);
+        output(hour, minute, notation);
         cout << "Do you want to convert next time?(y/n): ";
         cin >> again;
         if(again=='n'){loop=false;}
