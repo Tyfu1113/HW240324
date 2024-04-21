@@ -30,17 +30,17 @@ void outputDescription(Pizza pizza){
     << pizza.getTopping() << " toppings on it." << endl;
 }
 //the function to compute the price of pizza
-int computePrice(Pizza pizza){
+double computePrice(Pizza pizza){
     //switch to different size
     switch(pizza.getSize()){
         case 's':
-            return 10+2*pizza.getTopping();
+            return 10.0+2*pizza.getTopping();
             break;
         case 'm':
-            return 14+2*pizza.getTopping();
+            return 14.0+2*pizza.getTopping();
             break;
         case 'l':
-            return 17+2*pizza.getTopping();
+            return 17+.02*pizza.getTopping();
             break;
     }
 }
