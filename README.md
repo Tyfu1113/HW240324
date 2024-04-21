@@ -1,2 +1,2 @@
-# HW240324
+# C++ programming homework
 C++ homework 
