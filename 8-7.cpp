@@ -29,7 +29,7 @@ private:
             --prev;
         }
         if (prev <= 1) {
-            throw std::out_of_range("No previous prime number exists");
+            throw out_of_range("No previous prime number exists");
         }
         return prev;
     }
@@ -43,7 +43,7 @@ public:
         if (isPrime(prime) || prime == 1) {
             this->prime = prime;
         } else {
-            throw std::invalid_argument("The number is not a prime number");
+            throw invalid_argument("The number is not a prime number");
         }
     }
 
@@ -83,31 +83,31 @@ int main() {
     try {
         // testing default constructor
         PrimeNumber p1;
-        cout << "Default prime number: " << p1.getPrime() << std::endl; // Should be 1
+        cout << "Default prime number: " << p1.getPrime() << endl; // Should be 1
         // testing parameterized constructor
         PrimeNumber p2(13);
-        cout << "Initialized prime number: " << p2.getPrime() << std::endl; // Should be 13
+        cout << "Initialized prime number: " << p2.getPrime() << endl; // Should be 13
         // testing prefix increment
         ++p2;
-        cout << "Next prime number (prefix ++): " << p2.getPrime() << std::endl; // Should be 17
+        cout << "Next prime number (prefix ++): " << p2.getPrime() << endl; // Should be 17
         // testing postfix increment
         PrimeNumber p3 = p2++;
-        cout << "Previous prime number (postfix ++): " << p3.getPrime() << std::endl; // Should be 17
-        cout << "Current prime number: " << p2.getPrime() << std::endl; // Should be 19
+        cout << "Previous prime number (postfix ++): " << p3.getPrime() << endl; // Should be 17
+        cout << "Current prime number: " << p2.getPrime() << endl; // Should be 19
         // testing prefix decrement
         --p2;
-        cout << "Previous prime number (prefix --): " << p2.getPrime() << std::endl; // Should be 17
+        cout << "Previous prime number (prefix --): " << p2.getPrime() << endl; // Should be 17
         // testing postfix decrement
         PrimeNumber p4 = p2--;
-        cout << "Next prime number (postfix --): " << p4.getPrime() << std::endl; // Should be 17
-        cout << "Current prime number: " << p2.getPrime() << std::endl; // Should be 13
+        cout << "Next prime number (postfix --): " << p4.getPrime() << endl; // Should be 17
+        cout << "Current prime number: " << p2.getPrime() << endl; // Should be 13
         //smallest prime
         PrimeNumber p5(2);
         --p5;
-        cout << "Previous prime number from 2: " << p5.getPrime() << std::endl; // Should throw exception
+        cout << "Previous prime number from 2: " << p5.getPrime() << endl; // Should throw exception
 
-    } catch (const std::exception& e) {
-        cerr << "Error: " << e.what() << std::endl;
+    } catch (const exception& e) {
+        cerr << "Error: " << e.what() << endl;
     }
 
     return 0;
