@@ -6,6 +6,7 @@ using namespace SavitchEmployees;
 
 int main()
 {
+	//test inheritance
 	Administrator admin;
 	admin.readAdminData();
 	admin.print();

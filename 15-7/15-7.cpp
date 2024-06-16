@@ -48,6 +48,7 @@ int LoadedDice::rollDice() const {
 }
 
 int main() {
+	//roll dice
 	Dice die1(6);
 	Dice die2(6);
 

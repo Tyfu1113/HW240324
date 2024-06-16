@@ -4,10 +4,20 @@
 //
 //  Created by 傅梓崵 on 2024/6/16.
 //
+#ifndef FILE_H
+#define FILE_H
 
-#ifndef File_hpp
-#define File_hpp
+#include "Document.h"
 
-#include <stdio.h>
+class File : public Document {
+private:
+	std::string pathname;
+public:
+	File();
+	File(const std::string &pathname, const std::string &text);
+	std::string getPathname() const;
+	void setPathname(const std::string &pathname);
+	File& operator=(const File &other);
+};
 
-#endif /* File_hpp */
+#endif // FILE_H

@@ -11,6 +11,13 @@
 		705F6A9C2C1F1BCE00E80040 /* employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6A962C1F1BCE00E80040 /* employee.cpp */; };
 		705F6A9D2C1F1BCE00E80040 /* 14-4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6A992C1F1BCE00E80040 /* 14-4.cpp */; };
 		705F6A9E2C1F1BCE00E80040 /* administrator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6A9A2C1F1BCE00E80040 /* administrator.cpp */; };
+		705F6AA32C1F218700E80040 /* Document.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6AA12C1F218700E80040 /* Document.cpp */; };
+		705F6AA62C1F221D00E80040 /* Email.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6AA42C1F221D00E80040 /* Email.cpp */; };
+		705F6AA92C1F229300E80040 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6AA72C1F229300E80040 /* File.cpp */; };
+		705F6AAB2C1F22BA00E80040 /* 14-7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6AAA2C1F22BA00E80040 /* 14-7.cpp */; };
+		705F6AAE2C1F2E0B00E80040 /* 14-9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6AAD2C1F2E0B00E80040 /* 14-9.cpp */; };
+		705F6AB12C1F319B00E80040 /* 15-7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6AB02C1F319B00E80040 /* 15-7.cpp */; };
+		705F6AB42C1F394900E80040 /* 15-4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6AB32C1F394900E80040 /* 15-4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +40,16 @@
 		705F6A982C1F1BCE00E80040 /* salariedemployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = salariedemployee.h; sourceTree = "<group>"; };
 		705F6A992C1F1BCE00E80040 /* 14-4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "14-4.cpp"; sourceTree = "<group>"; };
 		705F6A9A2C1F1BCE00E80040 /* administrator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = administrator.cpp; sourceTree = "<group>"; };
+		705F6AA12C1F218700E80040 /* Document.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Document.cpp; sourceTree = "<group>"; };
+		705F6AA22C1F218700E80040 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		705F6AA42C1F221D00E80040 /* Email.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Email.cpp; sourceTree = "<group>"; };
+		705F6AA52C1F221D00E80040 /* Email.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Email.h; sourceTree = "<group>"; };
+		705F6AA72C1F229300E80040 /* File.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		705F6AA82C1F229300E80040 /* File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		705F6AAA2C1F22BA00E80040 /* 14-7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "14-7.cpp"; sourceTree = "<group>"; };
+		705F6AAD2C1F2E0B00E80040 /* 14-9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "14-9.cpp"; sourceTree = "<group>"; };
+		705F6AB02C1F319B00E80040 /* 15-7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15-7.cpp"; sourceTree = "<group>"; };
+		705F6AB32C1F394900E80040 /* 15-4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15-4.cpp"; sourceTree = "<group>"; };
 		70E1A12B2C1EE8D1005B8AC2 /* hw0620 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw0620; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,9 +78,51 @@
 			path = "14-4";
 			sourceTree = "<group>";
 		};
+		705F6A9F2C1F1F4400E80040 /* 14-7 */ = {
+			isa = PBXGroup;
+			children = (
+				705F6AA12C1F218700E80040 /* Document.cpp */,
+				705F6AA42C1F221D00E80040 /* Email.cpp */,
+				705F6AA72C1F229300E80040 /* File.cpp */,
+				705F6AAA2C1F22BA00E80040 /* 14-7.cpp */,
+				705F6AA82C1F229300E80040 /* File.h */,
+				705F6AA52C1F221D00E80040 /* Email.h */,
+				705F6AA22C1F218700E80040 /* Document.h */,
+			);
+			path = "14-7";
+			sourceTree = "<group>";
+		};
+		705F6AAC2C1F2DE600E80040 /* 14-9 */ = {
+			isa = PBXGroup;
+			children = (
+				705F6AAD2C1F2E0B00E80040 /* 14-9.cpp */,
+			);
+			path = "14-9";
+			sourceTree = "<group>";
+		};
+		705F6AAF2C1F318000E80040 /* 15-7 */ = {
+			isa = PBXGroup;
+			children = (
+				705F6AB02C1F319B00E80040 /* 15-7.cpp */,
+			);
+			path = "15-7";
+			sourceTree = "<group>";
+		};
+		705F6AB22C1F392A00E80040 /* 15-4 */ = {
+			isa = PBXGroup;
+			children = (
+				705F6AB32C1F394900E80040 /* 15-4.cpp */,
+			);
+			path = "15-4";
+			sourceTree = "<group>";
+		};
 		70E1A1222C1EE8D1005B8AC2 = {
 			isa = PBXGroup;
 			children = (
+				705F6AB22C1F392A00E80040 /* 15-4 */,
+				705F6AAF2C1F318000E80040 /* 15-7 */,
+				705F6AAC2C1F2DE600E80040 /* 14-9 */,
+				705F6A9F2C1F1F4400E80040 /* 14-7 */,
 				705F6A932C1F1B9100E80040 /* 14-4 */,
 				70E1A12C2C1EE8D1005B8AC2 /* Products */,
 			);
@@ -134,10 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				705F6AAE2C1F2E0B00E80040 /* 14-9.cpp in Sources */,
+				705F6AA62C1F221D00E80040 /* Email.cpp in Sources */,
 				705F6A9D2C1F1BCE00E80040 /* 14-4.cpp in Sources */,
+				705F6AAB2C1F22BA00E80040 /* 14-7.cpp in Sources */,
+				705F6AB12C1F319B00E80040 /* 15-7.cpp in Sources */,
+				705F6AA32C1F218700E80040 /* Document.cpp in Sources */,
+				705F6AB42C1F394900E80040 /* 15-4.cpp in Sources */,
 				705F6A9B2C1F1BCE00E80040 /* salariedemployee.cpp in Sources */,
 				705F6A9C2C1F1BCE00E80040 /* employee.cpp in Sources */,
 				705F6A9E2C1F1BCE00E80040 /* administrator.cpp in Sources */,
+				705F6AA92C1F229300E80040 /* File.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
