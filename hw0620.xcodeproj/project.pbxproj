@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70E1A12F2C1EE8D1005B8AC2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70E1A12E2C1EE8D1005B8AC2 /* main.cpp */; };
+		705F6A9B2C1F1BCE00E80040 /* salariedemployee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6A942C1F1BCE00E80040 /* salariedemployee.cpp */; };
+		705F6A9C2C1F1BCE00E80040 /* employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6A962C1F1BCE00E80040 /* employee.cpp */; };
+		705F6A9D2C1F1BCE00E80040 /* 14-4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6A992C1F1BCE00E80040 /* 14-4.cpp */; };
+		705F6A9E2C1F1BCE00E80040 /* administrator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 705F6A9A2C1F1BCE00E80040 /* administrator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		705F6A942C1F1BCE00E80040 /* salariedemployee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = salariedemployee.cpp; sourceTree = "<group>"; };
+		705F6A952C1F1BCE00E80040 /* administrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = administrator.h; sourceTree = "<group>"; };
+		705F6A962C1F1BCE00E80040 /* employee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = employee.cpp; sourceTree = "<group>"; };
+		705F6A972C1F1BCE00E80040 /* employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = employee.h; sourceTree = "<group>"; };
+		705F6A982C1F1BCE00E80040 /* salariedemployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = salariedemployee.h; sourceTree = "<group>"; };
+		705F6A992C1F1BCE00E80040 /* 14-4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "14-4.cpp"; sourceTree = "<group>"; };
+		705F6A9A2C1F1BCE00E80040 /* administrator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = administrator.cpp; sourceTree = "<group>"; };
 		70E1A12B2C1EE8D1005B8AC2 /* hw0620 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw0620; sourceTree = BUILT_PRODUCTS_DIR; };
-		70E1A12E2C1EE8D1005B8AC2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,10 +47,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		705F6A932C1F1B9100E80040 /* 14-4 */ = {
+			isa = PBXGroup;
+			children = (
+				705F6A992C1F1BCE00E80040 /* 14-4.cpp */,
+				705F6A9A2C1F1BCE00E80040 /* administrator.cpp */,
+				705F6A952C1F1BCE00E80040 /* administrator.h */,
+				705F6A962C1F1BCE00E80040 /* employee.cpp */,
+				705F6A972C1F1BCE00E80040 /* employee.h */,
+				705F6A942C1F1BCE00E80040 /* salariedemployee.cpp */,
+				705F6A982C1F1BCE00E80040 /* salariedemployee.h */,
+			);
+			path = "14-4";
+			sourceTree = "<group>";
+		};
 		70E1A1222C1EE8D1005B8AC2 = {
 			isa = PBXGroup;
 			children = (
-				70E1A12D2C1EE8D1005B8AC2 /* hw0620 */,
+				705F6A932C1F1B9100E80040 /* 14-4 */,
 				70E1A12C2C1EE8D1005B8AC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +75,6 @@
 				70E1A12B2C1EE8D1005B8AC2 /* hw0620 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		70E1A12D2C1EE8D1005B8AC2 /* hw0620 */ = {
-			isa = PBXGroup;
-			children = (
-				70E1A12E2C1EE8D1005B8AC2 /* main.cpp */,
-			);
-			path = hw0620;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70E1A12F2C1EE8D1005B8AC2 /* main.cpp in Sources */,
+				705F6A9D2C1F1BCE00E80040 /* 14-4.cpp in Sources */,
+				705F6A9B2C1F1BCE00E80040 /* salariedemployee.cpp in Sources */,
+				705F6A9C2C1F1BCE00E80040 /* employee.cpp in Sources */,
+				705F6A9E2C1F1BCE00E80040 /* administrator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
